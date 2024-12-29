@@ -1,0 +1,86 @@
+[
+  {
+    "completed": false,
+    "name": "Hello, World!",
+    "description": "Send your first message in the chat",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Now THAT's a Party!",
+    "description": "Add 20 friends",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Member When...?",
+    "description": "Relive a Highlight in your Career",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Window Dressing",
+    "description": "Switch up 5 different nameplates",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "You Do You",
+    "description": "Use the customizable wheel once",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Rising Star",
+    "description": "Reach Level 20",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Challenge Accepted!",
+    "description": "Complete 20 missions",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Self Made",
+    "description": "Earn 3,000 Chrono Tokens",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Doom's Rise",
+    "description": "Unlock all Dooms' Rise gallery cards",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Multiversal Veterans",
+    "description": "Raise the Proficiency of 2 heroes to Captain",
+    "points": 20
+  },
+  {
+    "completed": false,
+    "name": "What a Team-Up!",
+    "description": "Read 15 Team-Up stories",
+    "points": 20
+  },
+  {
+    "completed": false,
+    "name": "Heroic Honor",
+    "description": "Read 33 hero stories",
+    "points": 20
+  },
+  {
+    "completed": false,
+    "name": "Always on Duty",
+    "description": "Unlock 5 hero costumes",
+    "points": 20
+  },
+  {
+    "completed": false,
+    "name": "Sticking Around",
+    "description": "Log in for 30 Days",
+    "points": 20
+  }
+]

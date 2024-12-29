@@ -1,0 +1,392 @@
+[
+  {
+    "completed": true,
+    "name": "The New Agents of Atlas",
+    "description": "As Iron Fist, land 1 KO with an assist from Luna Snow",
+    "points": 5
+  },
+  {
+    "completed": true,
+    "name": "Learn THIS, bub!",
+    "description": "As Wolverine, take down an enemy Magneto",
+    "points": 5
+  },
+  {
+    "completed": true,
+    "name": "Jian and Katana",
+    "description": "As Psylocke, partner with Iron Fist to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": true,
+    "name": "Wanna Make a Snow Shark?",
+    "description": "As Jeff the Land Shark, partner with Luna Snow to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "King in Gold",
+    "description": "As Adam Warlock, take down an enemy Venom",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Getting Chummy",
+    "description": "As Namor, land 1 KO with an assist from Jeff the Land Shark",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Spider-Fighters",
+    "description": "As Peni Parker, partner with Spider-Man to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Brothers in Arms",
+    "description": "As Winter Soldier, land 1 KO with an assist from Rocket Raccoon",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "The Odinson Returns!",
+    "description": "As Thor, take down an enemy Loki",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Shattered Reality",
+    "description": "As Scarlet Witch, take down an enemy Scarlet Witch",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "House of M",
+    "description": "As Magneto, partner with Scarlet Witch to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Web, White, and Blue",
+    "description": "As Spider-Man, partner with Captain America to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Broken Bond",
+    "description": "As Venom, take down an enemy Spider-Man",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Beard Bros!",
+    "description": "As Iron Man, partner with Doctor Strange to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Red Reunion",
+    "description": "As Black Widow, partner with Winter Soldier to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Stark Fan Club Founder",
+    "description": "As Squirrel Girl, partner with Iron Man to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Frozen Fathoms",
+    "description": "As Luna Snow, freeze an enemy Namor with Absolute Zero",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Moonlit Hel",
+    "description": "As Moon Knight, partner with Hela to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Master Apprentice",
+    "description": "As Magik, partner with Doctor Strange to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Tree Talk",
+    "description": "As Groot, issue a ping and receive a response from allies",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Clash of Kings",
+    "description": "As Black Panther, take down an enemy Namor",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Street Justice!",
+    "description": "As Cloak & Dagger, assist Spider-Man in landing 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Ragnaroked",
+    "description": "As Hela, partner with Loki to take down an enemy Thor",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Rodent Rampage",
+    "description": "As Rocket Raccoon, partner with Squirrel Girl to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Like Old Times",
+    "description": "As Captain America, partner with Winter Soldier to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Arrow's Bite",
+    "description": "As Hawkeye, partner with Black Widow to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Inner Strength",
+    "description": "As Doctor Strange, knock out the Hulk's soul with the Eye of Agamotto",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Brotherly Love",
+    "description": "As Loki, assist Thor in landing 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "No Love Lost",
+    "description": "As Storm, partner with Black Panther to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Vengeance & Glory",
+    "description": "As the Punisher, partner with Captain America to land 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Puny God!",
+    "description": "As Monster Hulk, slam an enemy Loki with World Breaker",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Psychic Sister",
+    "description": "As Mantis, assist Psylocke in landing 1 KO",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Victory in Bloom",
+    "description": "As Mantis, assist allies in achieving a team wipe",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Might of Fuxi",
+    "description": "As Iron Fist, land 3 KOs with a single use of Living Chi",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Rage Uncaged",
+    "description": "As Wolverine, land 3 KOs with a single use of Last Stand",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Way of Butterfly",
+    "description": "As Psylocke, contest the mission area for 60 seconds in a single match",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Snack Attack!",
+    "description": "As Jeff the Land Shark, swallow 4 enemies with a single use of It's Jeff!",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Family Ties",
+    "description": "As Adam Warlock, forge a soul bond with 3 allies from the Guardians of the Galaxy",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Aquatic Assault",
+    "description": "As Namor, summon Monstro Spawn to land 10 KOs in a single game",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Vengeance for the Milano!",
+    "description": "As Star-Lord, land 10 KOs with assists from the Guardians of the Galaxy",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Watch Your Step!",
+    "description": "As Peni Parker, blast 3 enemies with a single use of Arachno-Mine",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Arm Race",
+    "description": "As Winter Soldier, land 3 KOs with a single use of Kraken Impact",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Divine Justice",
+    "description": "As Thor, strike down 4 enemies with a single use of God of Thunder",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "No More Mutants",
+    "description": "As Scarlet Witch, take down Mutant enemies 10 times",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Homo Superior",
+    "description": "As Magneto, assist Mutant allies 10 times",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Spider-Sense Tingling!",
+    "description": "As Spider-Man, detect an enemy with Spider-Sense and land a winning counterattack",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Grip of Hunger",
+    "description": "As Venom, snare 4 enemies with a single use of Cellular Corrosion",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Flawless Design",
+    "description": "As Iron-Man, hit 4 enemies with a single use of Invincible Pulse Cannon",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Deadly Bites",
+    "description": "As Black Widow, land 3 KOs with critical hits in a single match",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "\"Ahhh, those tiny claws!\"",
+    "description": "As Squirrel Girl, land 3 KOs with a single use of Unbeatable Squirrel Tsunami",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Multiverse Tour",
+    "description": "As Luna Snow, complete a match on 5 maps with different themes",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Punishment of the Moon",
+    "description": "As Moon Knight, hit 4 enemies with a single use of Hand of Khonshu",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Demon's Roar",
+    "description": "As Magik, land 3 KOs within a single transformation into Darkchild",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Vicious Vines",
+    "description": "As Groot, imprison 4 enemies with a single use of Strangling Prison",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "King of the Dead",
+    "description": "As Black Panther, land a 3-player KO streak in the Intergalactic Empire of Wakanda: Hall of Djalia",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Symphony of Light and Dark",
+    "description": "As Cloak & Dagger, assist allies in achieving a team wipe",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Terror of the Ten Realms",
+    "description": "As Hela, land a 3-player KO streak in Yggsgard: Yggdrasill Path",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Go Get 'Em, Guardians!",
+    "description": "As Rocket Raccoon, revive the Guardians of the Galaxy members 5 times",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Justice for All!",
+    "description": "As Captain America, land 3 KOs with a single use of Freedom Charge",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "West Coast, Best Coast",
+    "description": "As Hawkeye, partner with the Avengers to land 10 KOs",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Perilous Portal",
+    "description": "As Doctor Strange, land 1 terrain KO with the portal",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "God of Treachery",
+    "description": "As Loki, land one KO by stabbing from behind",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "To Me, My X-Men!",
+    "description": "As Storm, assist X-Men members 10 times",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Smoke Screen",
+    "description": "As the Punisher, land 3 KOs amidst the smoke of Scourge Grenade in a single game",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Smart Is New Smash",
+    "description": "As Bruce Banner, land 1 KO within 3 seconds of calming down from Hulk to Banner",
+    "points": 10
+  }
+]

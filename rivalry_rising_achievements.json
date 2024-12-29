@@ -1,0 +1,62 @@
+[
+  {
+    "completed": false,
+    "name": "On Fire!",
+    "description": "Win 3 consecutive matches in Quick Match",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Thumbs Up",
+    "description": "Upvote 1 player",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Assemble!",
+    "description": "Team up with a friend for a match",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Master of Modes",
+    "description": "Complete 1 Arcade match",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Heating Up!",
+    "description": "Take down 50 AI enemies in Practice VS. AI",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Onslaught",
+    "description": "Land a 3-player KO streak",
+    "points": 5
+  },
+  {
+    "completed": false,
+    "name": "Here to Represent",
+    "description": "Join a Tournament match with your faction",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "All Eyes on Me!",
+    "description": "Score MVP 5 times",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Ring Master",
+    "description": "Rank Gold or higher in Competitive mode",
+    "points": 10
+  },
+  {
+    "completed": false,
+    "name": "Inevitable!",
+    "description": "Win 100 matches",
+    "points": 20
+  }
+]
