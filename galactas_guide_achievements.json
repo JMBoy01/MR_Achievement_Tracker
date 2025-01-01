@@ -1,12 +1,12 @@
 [
   {
-    "completed": false,
+    "completed": true,
     "name": "Hello, World!",
     "description": "Send your first message in the chat",
     "points": 5
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Now THAT's a Party!",
     "description": "Add 20 friends",
     "points": 5
@@ -24,25 +24,25 @@
     "points": 5
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "You Do You",
     "description": "Use the customizable wheel once",
     "points": 5
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Rising Star",
     "description": "Reach Level 20",
     "points": 10
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Challenge Accepted!",
     "description": "Complete 20 missions",
     "points": 10
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Self Made",
     "description": "Earn 3,000 Chrono Tokens",
     "points": 10
@@ -60,13 +60,13 @@
     "points": 20
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "What a Team-Up!",
     "description": "Read 15 Team-Up stories",
     "points": 20
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Heroic Honor",
     "description": "Read 33 hero stories",
     "points": 20

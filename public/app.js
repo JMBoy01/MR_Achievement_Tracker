@@ -5,6 +5,7 @@ let currentCategory;
 // Laad achievements vanuit de server
 async function loadAchievements(category) {
   if (!category) {
+    updateEmptyTableHeader();
     renderEmptyAchievements();
     return;
   }
@@ -12,11 +13,13 @@ async function loadAchievements(category) {
   const response = await fetch(`/api/achievements?category=${encodeURIComponent(category)}`);
 
   if (!response.ok) { // if status not between 200-299 -> not ok
+    updateEmptyTableHeader();
     renderEmptyAchievements();
     return;
   }
 
   achievements = await response.json();
+  updateTableHeader();
   renderAchievements();
 }
 
@@ -56,9 +59,50 @@ function renderEmptyAchievements() {
   tableBody.appendChild(row);
 }
 
+function updateTableHeader() {
+  const tableHeader = document.querySelector('#achievementsTable tr');
+
+  let completed = 0;
+  let totalCompleted = 0;
+
+  let points = 0;
+  let totalPoints = 0;
+
+  achievements.forEach((achievement, index) => {
+    if(achievement.completed == true) {
+      completed++;
+      points += achievement.points;
+    }
+
+    totalCompleted++;
+    totalPoints += achievement.points;
+  });
+
+
+  tableHeader.innerHTML = `
+    <th>Completed ${completed}/${totalCompleted}</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Points ${points}/${totalPoints}</th>
+  `;
+}
+
+function updateEmptyTableHeader() {
+  const tableHeader = document.querySelector('#achievementsTable tr');
+
+  tableHeader.innerHTML = `
+    <th>Completed</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Points</th>
+  `;
+}
+
 // Toggle de completed state van een achievement
 function toggleCompleted(index) {
   achievements[index].completed = !achievements[index].completed;
+
+  updateTableHeader();
   saveProgress();
 }
 

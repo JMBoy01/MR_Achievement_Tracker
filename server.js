@@ -1,9 +1,10 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const config = require('./config.json')
 
 const app = express();
-const PORT = 3000;
+const PORT = config.port || 3000;
 
 // Middleware om JSON-data te parseren
 app.use(express.json());
