@@ -2,7 +2,6 @@ let achievements = [];
 let categories = {};
 let currentCategory;
 
-// Laad achievements vanuit de server
 async function loadAchievements(category) {
   if (!category) {
     updateEmptyTableHeader();
@@ -23,22 +22,14 @@ async function loadAchievements(category) {
   renderAchievements();
 }
 
-// Render de lijst met achievements
 function renderAchievements() {
   const tableBody = document.querySelector('#achievementsTable tbody');
   tableBody.replaceChildren(); // Make list empty by replacing them with noting
 
   achievements.forEach((achievement, index) => {
       const row = document.createElement('tr');
-      row.innerHTML = `
-        <td><input type="checkbox" data-index="${index}" ${achievement.completed ? 'checked' : ''}></td>
-        <td>${achievement.name}</td>
-        <td>${achievement.description}</td>
-        <td>${achievement.points}</td>
-      `;
-
-      const checkbox = row.querySelector('input[type="checkbox"]');
-      checkbox.addEventListener('change', () => toggleCompleted(index));
+      
+      generateRowHTML(row, index, achievement);
 
       tableBody.appendChild(row);
   });
@@ -50,9 +41,12 @@ function renderEmptyAchievements() {
 
   const row = document.createElement('tr');
   row.innerHTML = `
-    <td></td>
-    <td>No achievements found.</td>
-    <td>Pick another option in the drop down menu to view other achievements.</td>
+    <td>
+      <div>
+        <p><strong>No achievements found.</strong></p>
+        <p>Pick another option in the drop down menu to view other achievements.</p>
+      </div>
+    </td>
     <td></td>
   `;
 
@@ -80,10 +74,8 @@ function updateTableHeader() {
 
 
   tableHeader.innerHTML = `
-    <th>Completed ${completed}/${totalCompleted}</th>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Points ${points}/${totalPoints}</th>
+    <th>Achievement - Completed: ${completed}/${totalCompleted}</th>
+    <th>Points - Collected: ${points}/${totalPoints}</th>
   `;
 }
 
@@ -91,22 +83,67 @@ function updateEmptyTableHeader() {
   const tableHeader = document.querySelector('#achievementsTable tr');
 
   tableHeader.innerHTML = `
-    <th>Completed</th>
-    <th>Name</th>
-    <th>Description</th>
+    <th>Achievement</th>
     <th>Points</th>
   `;
 }
 
-// Toggle de completed state van een achievement
+function updateAchievement(index) {
+  const tableBody = document.querySelector('#achievementsTable tbody');
+  const row = tableBody.querySelector(`tr:nth-child(${index + 1})`);
+
+  const achievement = achievements[index];
+
+  if (!row) return;
+
+  generateRowHTML(row, index, achievement);
+}
+
+function generateRowHTML(row, index, achievement) {
+  row.innerHTML = `
+    <td>
+      <div style="display: flex;">
+        <div style="padding-right: 10px;">
+          <img src="./images/${currentCategory}_${achievement.points}.png" alt="achievement_img" style="width: 80px; height: 80px;" onerror="this.style.display='none';">
+        </div>
+        <div>
+          <p><strong>${achievement.name}</strong></p>
+          <p>${achievement.description}</p>
+        </div>
+        <div style="margin-left: auto; display: flex; align-items: center;">
+          <img src="./images/checkbox_${achievement.completed ? "true" : "false"}.png" alt="checkbox_img" style="width: 30px; height: 30px;" onerror="this.style.display='none';">
+        </div>
+      </div>
+    </td>
+    <td>
+      <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 0;">
+        <img src="./images/points.png" alt="points_img" style="width: 30px; height: 30px;" onerror="this.style.display='none';">
+        <p style="margin-top: 0; margin-bottom: 0; color: #757782"><strong>${achievement.points}</strong></p>
+      </div>
+    </td>
+  `;
+
+  // Add event listener to checkbox
+  const checkboxImg = row.querySelector('img[alt="checkbox_img"]');
+  checkboxImg.addEventListener('click', () => toggleCompleted(index));
+
+  // Play animation by adding or removing css class from the class list of the row
+  if (achievement.completed) {
+    row.classList.add("rowBackgroundAnimation");
+  }
+  else {
+    row.classList.remove("rowBackgroundAnimation");
+  }
+}
+
 function toggleCompleted(index) {
   achievements[index].completed = !achievements[index].completed;
 
   updateTableHeader();
+  updateAchievement(index);
   saveProgress();
 }
 
-// Opslaan naar de server
 async function saveProgress() {
   if (!currentCategory) {
     return;
@@ -149,6 +186,5 @@ function renderCategories() {
   }
 }
 
-// Initialisatie
 loadAchievements();
 loadCategories();

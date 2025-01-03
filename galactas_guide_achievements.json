@@ -1,12 +1,12 @@
 [
   {
-    "completed": true,
+    "completed": false,
     "name": "Hello, World!",
     "description": "Send your first message in the chat",
     "points": 5
   },
   {
-    "completed": true,
+    "completed": false,
     "name": "Now THAT's a Party!",
     "description": "Add 20 friends",
     "points": 5
@@ -54,7 +54,7 @@
     "points": 10
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Multiversal Veterans",
     "description": "Raise the Proficiency of 2 heroes to Captain",
     "points": 20

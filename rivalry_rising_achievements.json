@@ -1,6 +1,6 @@
 [
   {
-    "completed": false,
+    "completed": true,
     "name": "On Fire!",
     "description": "Win 3 consecutive matches in Quick Match",
     "points": 5

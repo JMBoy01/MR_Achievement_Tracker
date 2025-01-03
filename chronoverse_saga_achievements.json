@@ -1,12 +1,12 @@
 [
   {
-    "completed": false,
+    "completed": true,
     "name": "Spore Sport",
     "description": "Shatter 50 Symbiote Spores in Klyntar",
     "points": 5
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "VENI VIDI V...?",
     "description": "Spray 1 time toward the Celestial Codex in Klyntar",
     "points": 5
