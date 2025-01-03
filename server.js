@@ -1,10 +1,22 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const config = require('./config.json')
+// const config = require('./config.json')
 
 const app = express();
-const PORT = config.port || 3000;
+const PORT = readConfig();
+
+function readConfig() {
+  try {
+    const rawConfig = fs.readFileSync("config.json", 'utf-8');
+    const config = JSON.parse(rawConfig);
+    return config.port;
+  } catch (error) {
+    console.error(`Error while loading config.json: ${error.message}`);
+    console.error(`Defaulting to port 3000...`);
+    return 3000;
+  }
+}
 
 // Middleware om JSON-data te parseren
 app.use(express.json());

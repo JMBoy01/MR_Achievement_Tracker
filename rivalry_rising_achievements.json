@@ -12,7 +12,7 @@
     "points": 5
   },
   {
-    "completed": false,
+    "completed": true,
     "name": "Assemble!",
     "description": "Team up with a friend for a match",
     "points": 5
